@@ -2503,6 +2503,9 @@ a.fancybox {
   background-color: var(--color-card);
   float: right;
 }
+#lv-container {
+  width: 100%;
+}
 .copy-button {
   position: absolute;
   top: 0;

@@ -1,16 +1,16 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.6.2" type="image/png" sizes="32x32"><meta name="description" content="今天我想聊一聊双拼输入法。我希望能够用 10 分钟以内的时间，带大家了解这个输入法，包括它的原理，它的意义，它的优势与劣势，以及练习方法。                     什么是双拼输入法？       不知道大家有没有过这样的经历：一不小心把正在使用的全拼输入法改成了双拼，然后发现完全不知道该怎么打字了？ 是的，市面上几乎所有的输入法都提供全拼与双拼的切换，就比如 Win 10 自带的输">
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.6.2" type="image/png" sizes="32x32"><meta name="description" content="今天我想聊一聊双拼输入法。我希望能够用 10 分钟以内的时间，带大家了解这个输入法，包括它的原理，它的意义，它的优势与劣势，以及练习方法。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="聊一聊双拼输入法">
 <meta property="og:url" content="https://byjrk.github.io/2021/08/29/idea/%E5%8F%8C%E6%8B%BC%E8%BE%93%E5%85%A5%E6%B3%95/index.html">
 <meta property="og:site_name" content="云无月的前灵境">
-<meta property="og:description" content="今天我想聊一聊双拼输入法。我希望能够用 10 分钟以内的时间，带大家了解这个输入法，包括它的原理，它的意义，它的优势与劣势，以及练习方法。                     什么是双拼输入法？       不知道大家有没有过这样的经历：一不小心把正在使用的全拼输入法改成了双拼，然后发现完全不知道该怎么打字了？ 是的，市面上几乎所有的输入法都提供全拼与双拼的切换，就比如 Win 10 自带的输">
+<meta property="og:description" content="今天我想聊一聊双拼输入法。我希望能够用 10 分钟以内的时间，带大家了解这个输入法，包括它的原理，它的意义，它的优势与劣势，以及练习方法。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://i.loli.net/2021/08/29/ZkFhRcCKs3rHfqx.png">
 <meta property="og:image" content="https://i.loli.net/2021/08/29/8lUMJ5K7mFO1IEj.png">
 <meta property="og:image" content="https://i.loli.net/2021/08/29/d8OCpRwluKHBi1z.png">
 <meta property="og:image" content="https://flypy.com/images/hejp.png">
 <meta property="article:published_time" content="2021-08-29T02:42:18.000Z">
-<meta property="article:modified_time" content="2021-08-29T04:44:52.742Z">
+<meta property="article:modified_time" content="2021-08-29T04:48:45.166Z">
 <meta property="article:author" content="ywy">
 <meta property="article:tag" content="讨论">
 <meta property="article:tag" content="推荐">
@@ -40,6 +40,8 @@ var CONFIG = {
 };
 
 window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner header-inner--height header-inner--bgcolor"><nav class="header-nav header-nav--sticky"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">首页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">归档</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/tags/"><span class="header-nav-menu-item__icon"><i class="fas fa-tags"></i></span><span class="header-nav-menu-item__text">标签</span></a></div></div><div class="header-nav-search"><span class="header-nav-search__icon"><i class="fas fa-search"></i></span><span class="header-nav-search__text">搜索</span></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">聊一聊双拼输入法</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2021-08-29</span></span><span class="post-meta-item post-meta-item--wordcount"><span class="post-meta-item__icon"><i class="far fa-file-word"></i></span><span class="post-meta-item__info">字数统计</span><span class="post-meta-item__value">5.1k</span></span><span class="post-meta-item post-meta-item--readtime"><span class="post-meta-item__icon"><i class="far fa-clock"></i></span><span class="post-meta-item__info">阅读时长</span><span class="post-meta-item__value">26分</span></span></div></header><div class="post-body"><p>今天我想聊一聊双拼输入法。我希望能够用 10 分钟以内的时间，带大家了解这个输入法，包括它的原理，它的意义，它的优势与劣势，以及练习方法。</p>
+<span id="more"></span>
+
 
         <h2 id="什么是双拼输入法？"   >
           <a href="#什么是双拼输入法？" class="heading-link"><i class="fas fa-link"></i></a><a href="#什么是双拼输入法？" class="headerlink" title="什么是双拼输入法？"></a>什么是双拼输入法？</h2>

@@ -1,0 +1,381 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.6.2" type="image/png" sizes="32x32"><meta name="description" content="语料库（Corpus）是什么？百度百科给出的解释是：  语料库指经科学取样和加工的大规模电子文本库，其中存放的是在语言的实际使用中真实出现过的语言材料。  说白了，可以理解为一个人为收集的极其庞大的生活中能够见到的各种文字段落。这些文字的来源可以说是相当广泛，比如杂志、网站、新闻、学术论文、书籍等等。就算是其中的一个小类别，比如书籍，也包括漫画书、工具书、教科书、古典名著、历史书等等。 那这玩意能">
+<meta property="og:type" content="article">
+<meta property="og:title" content="语料库可以用来做什么？">
+<meta property="og:url" content="https://byjrk.github.io/2021/09/25/idea/%E8%AF%AD%E6%96%99%E5%BA%93%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%9F/index.html">
+<meta property="og:site_name" content="云无月的前灵境">
+<meta property="og:description" content="语料库（Corpus）是什么？百度百科给出的解释是：  语料库指经科学取样和加工的大规模电子文本库，其中存放的是在语言的实际使用中真实出现过的语言材料。  说白了，可以理解为一个人为收集的极其庞大的生活中能够见到的各种文字段落。这些文字的来源可以说是相当广泛，比如杂志、网站、新闻、学术论文、书籍等等。就算是其中的一个小类别，比如书籍，也包括漫画书、工具书、教科书、古典名著、历史书等等。 那这玩意能">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/09/25/xcdVYHK9GzsPkli.png">
+<meta property="og:image" content="https://i.loli.net/2021/09/25/RxIX9YuDajTNlkt.png">
+<meta property="og:image" content="https://i.loli.net/2021/09/25/EH3YpxfNbdK8utL.png">
+<meta property="og:image" content="https://i.loli.net/2021/09/25/8K3sdh9TgDVo7LO.png">
+<meta property="og:image" content="https://i.loli.net/2021/09/25/f5IaNCSRqL6nPTp.png">
+<meta property="og:image" content="https://i.loli.net/2021/09/25/nU2kw4iLbKYZzNj.png">
+<meta property="og:image" content="https://i.loli.net/2021/09/25/mJdyxXcQSbCY4ER.png">
+<meta property="og:image" content="https://i.loli.net/2021/09/25/i4LgIZskPQfT6tE.png">
+<meta property="article:published_time" content="2021-09-25T15:03:07.000Z">
+<meta property="article:modified_time" content="2021-09-25T15:44:47.312Z">
+<meta property="article:author" content="ywy">
+<meta property="article:tag" content="想法">
+<meta property="article:tag" content="技术">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/09/25/xcdVYHK9GzsPkli.png"><title>语料库可以用来做什么？ | 云无月的前灵境</title><link ref="canonical" href="https://byjrk.github.io/2021/09/25/idea/%E8%AF%AD%E6%96%99%E5%BA%93%E5%8F%AF%E4%BB%A5%E7%94%A8%E6%9D%A5%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%9F/"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.6.2"><script>var Stun = window.Stun || {};
+var CONFIG = {
+  root: '/',
+  algolia: undefined,
+  assistSearch: undefined,
+  fontIcon: {"prompt":{"success":"fas fa-check-circle","info":"fas fa-arrow-circle-right","warning":"fas fa-exclamation-circle","error":"fas fa-times-circle"},"copyBtn":"fas fa-copy"},
+  sidebar: {"offsetTop":"20px","tocMaxDepth":6},
+  header: {"enable":true,"showOnPost":false,"scrollDownIcon":true},
+  postWidget: {"endText":true},
+  nightMode: {"enable":true},
+  back2top: {"enable":true},
+  codeblock: {"style":"default","highlight":"light","wordWrap":false},
+  reward: false,
+  fancybox: true,
+  zoomImage: {"gapAside":"20px"},
+  galleryWaterfall: undefined,
+  lazyload: false,
+  pjax: undefined,
+  externalLink: {"icon":{"enable":true,"name":"fas fa-external-link-alt"}},
+  shortcuts: undefined,
+  prompt: {"copyButton":"复制","copySuccess":"复制成功","copyError":"复制失败"},
+  sourcePath: {"js":"js","css":"css","images":"images"},
+};
+
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner header-inner--height header-inner--bgcolor"><nav class="header-nav header-nav--sticky"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">首页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">归档</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/tags/"><span class="header-nav-menu-item__icon"><i class="fas fa-tags"></i></span><span class="header-nav-menu-item__text">标签</span></a></div></div><div class="header-nav-search"><span class="header-nav-search__icon"><i class="fas fa-search"></i></span><span class="header-nav-search__text">搜索</span></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">语料库可以用来做什么？</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2021-09-25</span></span><span class="post-meta-item post-meta-item--wordcount"><span class="post-meta-item__icon"><i class="far fa-file-word"></i></span><span class="post-meta-item__info">字数统计</span><span class="post-meta-item__value">1.2k</span></span><span class="post-meta-item post-meta-item--readtime"><span class="post-meta-item__icon"><i class="far fa-clock"></i></span><span class="post-meta-item__info">阅读时长</span><span class="post-meta-item__value">6分</span></span></div></header><div class="post-body"><p>语料库（Corpus）是什么？百度百科给出的解释是：</p>
+<blockquote>
+<p>语料库指经科学取样和加工的大规模电子文本库，其中存放的是在语言的实际使用中真实出现过的语言材料。</p>
+</blockquote>
+<p>说白了，可以理解为一个人为收集的极其庞大的生活中能够见到的各种文字段落。这些文字的来源可以说是相当广泛，比如杂志、网站、新闻、学术论文、书籍等等。就算是其中的一个小类别，比如书籍，也包括漫画书、工具书、教科书、古典名著、历史书等等。</p>
+<p>那这玩意能干啥呢？学自然语言处理、人工智能、统计学之类的朋友一定不会陌生。这些东西是相当好的训练数据，可以用来训练各种功能的网络，比如翻译（比如中英、中日、古汉语等）、情感分类（判断说话者的态度是积极还是消极）、问答（根据提出的问题进行相应的作答）等等。但是语料库对于不搞学术研究的普通人有没有什么用处呢？答案是有的。下面我想简单介绍两个网站。</p>
+
+        <h2 id="BCC-语料库"   >
+          <a href="#BCC-语料库" class="heading-link"><i class="fas fa-link"></i></a><a href="#BCC-语料库" class="headerlink" title="BCC 语料库"></a>BCC 语料库</h2>
+      <p><span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="http://bcc.blcu.edu.cn/" >BCC 语料库</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>是北京语言大学语言智能研究院推出的一个线上语料库。BCC 是北京语言大学语料库中心（BLCU Corpus Center）的缩写。</p>
+<p>打开网址，会看到一个像是传统搜索引擎一样的东西。然后我们搜索一点东西试试看（默认是“多领域”，会搜到相当多的微博内容，所以我们先切换到“文学”）：</p>
+<p><img src="https://i.loli.net/2021/09/25/xcdVYHK9GzsPkli.png"></p>
+<p>这大概就是语料库最简单直接的功能了：搜索相关句子的出处。比如我们看过一句名言，但是想不起来出自哪里，那就可以用语料库进行搜索。比如隐约记得有句把说话夹杂外语比作牙缝里的肉屑，就可以这样搜索：</p>
+<p><img src="https://i.loli.net/2021/09/25/RxIX9YuDajTNlkt.png"></p>
+<p>然后就找到了出处。但是这显然是有点大材小用了。这种事情随便一个中文搜索引擎就可以做到吧，甚至做得比语料库更好。这时候语料库的另一个关键功能，也就是这篇文章想要重点介绍的功能就来了：“以人为镜”。</p>
+<p>就算是从小说中文，实际到了写作的时候，也经常会不知道该怎么去表达，或者该用什么字词。举个简单例子，比如“高兴 de 不得了”，不知道这里该用“的”还是“得”，那我们就可以搜搜看了，看看别人是怎么用的。当然，我们依旧选择文学，因为文学的中文语法是相对更能信得过的。</p>
+<p><img src="https://i.loli.net/2021/09/25/EH3YpxfNbdK8utL.png"></p>
+<p>怎么样，是不是立刻就找到答案了？</p>
+<p>又或者，不知道该怎么去描写莲花，那么可以搜索：</p>
+<p><img src="https://i.loli.net/2021/09/25/8K3sdh9TgDVo7LO.png"></p>
+<p>或许就能够得到一些写作的灵感了。</p>
+<p>以上用到的搜索技巧全都可以在 <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="http://bcc.blcu.edu.cn/help" >BCC 语料库的官方帮助文档</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>中找到。</p>
+<p>时间有限，中文的语料库就先介绍到这里。下面我再介绍一个英文的。</p>
+
+        <h2 id="Linggle"   >
+          <a href="#Linggle" class="heading-link"><i class="fas fa-link"></i></a><a href="#Linggle" class="headerlink" title="Linggle"></a>Linggle</h2>
+      <p>英文的叫做 <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://linggle.com/" >Linggle</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>，虽然也是利用了语料库，但是可能就不像上面那个中文的看起来酷炫了，能给你展示出搜索到的句子。英文的这个只能给你一个统计学的频率。但即便如此，这个工具依旧好用。倒不如说，它的用处正是因此而最大化地体现出来的。</p>
+<p>在学习英文以及英文写作的时候，经常遇到不知道该怎么表达的问题。比如动词后面的介词不知道该用什么，或者不知道某种表达方式是否地道。这种时候大家一般会怎么办呢？</p>
+<p>了解了这个英文语料库之后，就可以用新的方法了！</p>
+<p>比如想要表达“达到要求”，但是只知道“要求”是“requirement”，却不清楚前面该用什么动词。这时候可以搜索：</p>
+<p><img src="https://i.loli.net/2021/09/25/f5IaNCSRqL6nPTp.png"></p>
+<p>就能立刻找到答案了。点击某个具体的短语，还可以查看例句。虽然不像是 BCC 那样可以给出所有搜索到的例句，但是给出的一些仍然是很有参考意义的。</p>
+<p><img src="https://i.loli.net/2021/09/25/nU2kw4iLbKYZzNj.png"></p>
+<p>再比如，想要表达“我喜欢弹钢琴”，但是不知道该怎么表达。这时候可以搜索：</p>
+<p><img src="https://i.loli.net/2021/09/25/mJdyxXcQSbCY4ER.png"></p>
+<p>或者想知道 finish 后面加一个冠词和一个名词，都有哪些常见的用法，可以搜索：</p>
+<p><img src="https://i.loli.net/2021/09/25/i4LgIZskPQfT6tE.png"></p>
+<hr>
+<p>类似的例子实在是太多了。这里先写这么多。之后如果有什么新的，我会在这里补充。</p>
+<p>大家快去体验一下上面提到的两款工具吧！</p>
+</div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ 本文结束，感谢您的阅读 ------</div></div><div class="post-tags"><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://byjrk.github.io/tags/%E6%83%B3%E6%B3%95/">想法</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://byjrk.github.io/tags/%E6%8A%80%E6%9C%AF/">技术</a></span></div><nav class="post-paginator paginator"><div class="paginator-next"><a class="paginator-next__link" href="/2021/09/23/idea/%E8%B4%BE%E7%8E%B2%E5%9C%A8%E6%98%A5%E6%99%9A%E4%B8%8A%E7%9A%84%E8%8A%82%E7%9B%AE%E5%A5%BD%E7%9C%8B%E5%90%97%EF%BC%9F%E5%A5%BD%E4%B8%AA%E5%B1%81/"><span class="paginator-prev__text">贾玲在春晚上的节目好看吗？好个屁</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div><div class="comments" id="comments"><div id="lv-container" data-id="city" data-uid="MTAyMC81MzgyMi8zMDI5NQ=="></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">文章目录</span><span class="sidebar-nav-ov">站点概览</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#BCC-%E8%AF%AD%E6%96%99%E5%BA%93"><span class="toc-text">
+          BCC 语料库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Linggle"><span class="toc-text">
+          Linggle</span></a></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/avatar.png" alt="avatar"></div><p class="sidebar-ov-author__text">其实，我有点开心</p></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">28</div><div class="sidebar-ov-state-item__name">归档</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--tags" href="/tags/"><div class="sidebar-ov-state-item__count">12</div><div class="sidebar-ov-state-item__name">标签</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="知识共享许可协议" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">你已阅读了 </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>由 <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> 强力驱动</span><span> v5.4.0</span><span class="footer__devider">|</span><span>主题 - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.6.2</span></div><div class="busuanzi"><span class="busuanzi-siteuv"><span class="busuanzi-siteuv__icon"><i class="fas fa-user"></i></span><span class="busuanzi-siteuv__info">访问人数</span><span class="busuanzi-siteuv__value" id="busuanzi_value_site_uv"></span></span><span class="busuanzi-sitepv"><span class="busuanzi-siteuv__icon"><i class="fas fa-eye"></i></span><span class="busuanzi-siteuv__info">浏览总量</span><span class="busuanzi-siteuv__value" id="busuanzi_value_site_pv"></span></span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><div class="search-mask"></div><div class="search-popup"><span class="search-close"></span><div class="search-input"><input placeholder="搜索文章（支持多关键词，请用空格分隔）"></div><div class="search-results"></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1.0.1/dist/canvas-nest.min.js" color="0,0,0" opacity="0.5" count="99" zIndex="-1"></script><script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script><script>function initSearch() {
+  var isXML = true;
+  var search_path = 'search.json';
+
+  if (!search_path) {
+    search_path = 'search.xml';
+  } else if (/json$/i.test(search_path)) {
+    isXML = false;
+  }
+
+  var path = '/' + search_path;
+  $.ajax({
+    url: path,
+    dataType: isXML ? 'xml' : 'json',
+    async: true,
+    success: function (res) {
+      var datas = isXML ? $('entry', res).map(function () {
+        // 将 XML 转为 JSON
+        return {
+          title: $('title', this).text(),
+          content: $('content', this).text(),
+          url: $('url', this).text()
+        };
+      }).get() : res;
+      var $input = $('.search-input input');
+      var $result = $('.search-results');
+      // 搜索对象（标题、内容）的权重，影响显示顺序
+      var WEIGHT = { title: 100, content: 1 };
+      var searchPost = function () {
+        var searchText = $input.val().toLowerCase().trim();
+        // 根据空白字符分隔关键字
+        var keywords = searchText.split(/[\s]+/);
+        // 搜索结果
+        var matchPosts = [];
+
+        // 有多个关键字时，将原文字整个保存下来
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        // 防止未输入字符时搜索
+        if (searchText.length > 0) {
+          datas.forEach(function (data) {
+            var isMatch  = false;
+            // 没有标题的文章使用预设的 i18n 变量代替
+            var title = (data.title && data.title.trim()) || '[ 文章无标题 ]';
+            var titleLower = title && title.toLowerCase();
+            // 删除 HTML 标签 和 所有空白字符
+            var content = data.content && data.content.replace(/<[^>]+>/g, '');
+            var contentLower = content && content.toLowerCase();
+            // 删除重复的 /
+            var postURL = data.url && decodeURI(data.url).replace(/\/{2,}/g, '/');
+            // 标题中匹配到的关键词
+            var titleHitSlice = [];
+            // 内容中匹配到的关键词
+            var contentHitSlice = [];
+
+            keywords.forEach(function (keyword) {
+              /**
+              * 获取匹配的关键词的索引
+              * @param {String} keyword 要匹配的关键字
+              * @param {String} text 原文字
+              * @param {Boolean} caseSensitive 是否区分大小写
+              * @param {Number} weight 匹配对象的权重。权重大的优先显示
+              * @return {Array}
+              */
+              function getIndexByword (word, text, caseSensitive, weight) {
+                if (!word || !text) {
+                  return [];
+                };
+
+                var startIndex = 0; // 每次匹配的开始索引
+                var index = -1;     // 匹配到的索引值
+                var result = [];    // 匹配结果
+
+                if (!caseSensitive) {
+                  word = word.toLowerCase();
+                  text = text.toLowerCase();
+                }
+
+                while((index = text.indexOf(word, startIndex)) !== -1) {
+                  var hasMatch = false;
+                  // 索引位置相同的关键词，保留长度较长的
+                  titleHitSlice.forEach(function (hit) {
+                    if (hit.index === index && hit.word.length < word.length) {
+                      hit.word = word;
+                      hasMatch = true;
+                    }
+                  });
+                  startIndex = index + word.length;
+                  !hasMatch && result.push({ index: index, word: word, weight: weight });
+                }
+                return result;
+              }
+              titleHitSlice = titleHitSlice.concat(getIndexByword(keyword, titleLower, false, WEIGHT.title));
+              contentHitSlice = contentHitSlice.concat(getIndexByword(keyword, contentLower, false, WEIGHT.content));
+            });
+
+            var hitTitle = titleHitSlice.length;
+            var hitContent = contentHitSlice.length;
+
+            if (hitTitle > 0 || hitContent > 0) {
+              isMatch = true;
+            }
+            if (isMatch) {
+              ;[titleHitSlice, contentHitSlice].forEach(function (hit) {
+                // 按照匹配文字的索引的递增顺序排序
+                hit.sort(function (left, right) {
+                  return left.index - right.index;
+                });
+              });
+              /**
+              * 给文本中匹配到的关键词添加标记，从而进行高亮显示
+              * @param {String} text 原文本
+              * @param {Array} hitSlice 匹配项的索引信息
+              * @param {Number} start 开始索引
+              * @param {Number} end 结束索引
+              * @return {String}
+              */
+              function highlightKeyword (text, hitSlice, start, end) {
+                if (!text || !hitSlice || !hitSlice.length) {
+                  return;
+                }
+
+                var result = '';
+                var startIndex = start;
+                var endIndex = end;
+                hitSlice.forEach(function (hit) {
+                  if (hit.index < startIndex) {
+                    return;
+                  }
+
+                  var hitWordEnd = hit.index + hit.word.length;
+                  result += text.slice(startIndex, hit.index);
+                  result += '<b>' + text.slice(hit.index, hitWordEnd) + '</b>';
+                  startIndex = hitWordEnd;
+                });
+                result += text.slice(startIndex, endIndex);
+                return result;
+              }
+
+              var postData = {};
+              // 文章总的搜索权重
+              var postWeight = titleHitSlice.length * WEIGHT.title + contentHitSlice.length * WEIGHT.content;
+              // 标记匹配关键词后的标题
+              var postTitle = highlightKeyword(title, titleHitSlice, 0, title.length) || title;
+              // 标记匹配关键词后的内容
+              var postContent;
+              // 显示内容的长度
+              var SHOW_WORD_LENGTH = 200;
+              // 命中关键词前的字符显示长度
+              var SHOW_WORD_FRONT_LENGTH = 20;
+              var SHOW_WORD_END_LENGTH = SHOW_WORD_LENGTH - SHOW_WORD_FRONT_LENGTH;
+
+              // 截取匹配的第一个字符，前后共 200 个字符来显示
+              if (contentHitSlice.length > 0) {
+                var firstIndex = contentHitSlice[0].index;
+                var start = firstIndex > SHOW_WORD_FRONT_LENGTH ? firstIndex - SHOW_WORD_FRONT_LENGTH : 0;
+                var end = firstIndex + SHOW_WORD_END_LENGTH;
+                postContent = highlightKeyword(content, contentHitSlice, start, end);
+              } else { // 未匹配到内容，直接截取前 200 个字符来显示
+                postContent = content.slice(0, SHOW_WORD_LENGTH);
+              }
+              postData.title = postTitle;
+              postData.content = postContent;
+              postData.url = postURL;
+              postData.weight = postWeight;
+              matchPosts.push(postData);
+            }
+          });
+        }
+
+        var resultInnerHtml = '';
+        if (matchPosts.length) {
+          // 按权重递增的顺序排序，使权重大的优先显示
+          matchPosts.sort(function (left, right) {
+            return right.weight - left.weight;
+          });
+          resultInnerHtml += '<ul>';
+          matchPosts.forEach(function (post) {
+            resultInnerHtml += '<li><a class="search-results-title" href="' + post.url + '">';
+            resultInnerHtml += post.title;
+            resultInnerHtml += '</a><div class="search-results-content">';
+            resultInnerHtml += post.content;
+            resultInnerHtml += '</div></li>';
+          });
+          resultInnerHtml += '</ul>';
+        } else {
+          resultInnerHtml += '<div class="search-results-none"><i class="far fa-meh"></i></div>';
+        }
+        $result.html(resultInnerHtml);
+      };
+      $input.on('input', searchPost);
+      $input.on('keyup', function (e) {
+        if (e.keyCode === Stun.utils.codeToKeyCode('Enter')) {
+          searchPost();
+        }
+      });
+    }
+  });
+}
+
+function closeSearch () {
+  $('body').css({ overflow: 'auto' });
+  $('.search-popup').css({ display: 'none' });
+  $('.search-mask').css({ display: 'none' });
+}
+
+window.addEventListener('DOMContentLoaded', function () {
+  Stun.utils.pjaxReloadLocalSearch = function () {
+    $('.header-nav-search').on('click', function (e) {
+      e.stopPropagation();
+      $('body').css('overflow', 'hidden');
+      $('.search-popup')
+        .velocity('stop')
+        .velocity('transition.expandIn', {
+          duration: 300,
+          complete: function () {
+            $('.search-popup input').focus();
+          }
+        });
+      $('.search-mask')
+        .velocity('stop')
+        .velocity('transition.fadeIn', {
+          duration: 300
+        });
+
+      initSearch();
+    });
+    $('.search-mask, .search-close').on('click', function () {
+      closeSearch();
+    });
+    $(document).on('keydown', function (e) {
+      // Escape <=> 27
+      if (e.keyCode === Stun.utils.codeToKeyCode('Escape')) {
+        closeSearch();
+      }
+    });
+  };
+
+  Stun.utils.pjaxReloadLocalSearch();
+}, false);
+
+function safeOpenUrl(url) {
+  var newTab = window.open();
+  newTab.opener = null;
+  newTab.location = url;
+}
+
+function extSearch(engine) {
+  var engines = {
+    google: 'https://www.google.com/search?q=',
+    bing: 'https://cn.bing.com/search?q=',
+    baidu: 'https://www.baidu.com/s?ie=UTF-8&wd=',
+  };
+  var host = window.location.host;
+  var query = $('.search-input input').val().toLowerCase().trim();
+  var uri = engines[engine] + query + ' site:' + host;
+
+  if (query) {
+    safeOpenUrl(uri);
+  } else {
+    Stun.utils.popAlert('warning', '请输入字符');
+  }
+}
+
+var assistSearchList = window.CONFIG.assistSearch;
+
+if (Array.isArray(assistSearchList)) {
+  assistSearchList.forEach(function (name) {
+    document.querySelector('.search-btns-item--' + name).addEventListener('click', function () {
+      extSearch(name);
+    }, false);
+  });
+}</script><script src="https://cdn.jsdelivr.net/gh/sukkaw/busuanzi@latest/bsz.pure.mini.js" async></script><script>function loadLivere () {
+  var d = document, s = d.createElement('script');
+
+  if (!d.getElementById('lv-container')) {
+    return;
+  }
+  if (typeof LivereTower === 'function') {
+    return;
+  }
+  s.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+  if (false) {
+    s.setAttribute('data-pjax-rm', '');
+  }
+  (d.head || d.body).appendChild(s);
+}
+
+if (false) {
+  loadLivere();
+} else {
+  window.addEventListener('DOMContentLoaded', loadLivere, false);
+}</script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script><script type="application/json" src="/search.json"></script></body></html>

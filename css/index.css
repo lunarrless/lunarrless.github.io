@@ -629,6 +629,10 @@ body::after {
   height: 100vh;
   z-index: -2;
   background: url("/images/bg.jpg") no-repeat center/cover;
+  background-repeat: repeat;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  background-size: auto;
 }
 body::before {
   content: '';

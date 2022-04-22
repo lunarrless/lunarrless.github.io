@@ -628,7 +628,7 @@ body::after {
   position: fixed;
   height: 100vh;
   z-index: -2;
-  background: url("/images/bg.jpg") no-repeat center/cover;
+  background: url("https://s2.loli.net/2022/04/22/vUAuwbHa19Zy3Li.jpg") no-repeat center/cover;
   background-repeat: repeat;
   -webkit-background-size: auto;
   -moz-background-size: auto;

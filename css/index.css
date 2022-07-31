@@ -630,8 +630,6 @@ body::after {
   z-index: -2;
   background: url("https://s2.loli.net/2022/04/22/vUAuwbHa19Zy3Li.jpg") no-repeat center/cover;
   background-repeat: repeat;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
   background-size: auto;
 }
 body::before {
@@ -2570,8 +2568,9 @@ a.fancybox {
   background-color: var(--color-card);
   float: right;
 }
-#lv-container {
+#disqus_thread {
   width: 100%;
+  background-color: #fff;
 }
 .copy-button {
   position: absolute;

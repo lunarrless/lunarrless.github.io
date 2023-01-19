@@ -2,6 +2,8 @@ User-agent: *
 Allow: /
 Allow: /archives/
 Allow: /tags/
+Allow: /notes/
+Allow: /notes/archives/
 
 Disallow: /vendors/
 Disallow: /js/

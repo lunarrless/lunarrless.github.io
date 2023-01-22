@@ -646,7 +646,7 @@ body::before {
   background-color: rgba(0,0,0,0.25);
 }
 .nightmode body::before {
-  background-color: rgba(0,0,0,0.95);
+  background-color: rgba(0,0,0,0.9);
 }
 .container {
   white-space: normal;

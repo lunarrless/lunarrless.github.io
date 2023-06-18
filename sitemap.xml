@@ -548,13 +548,6 @@
   </url>
   
   <url>
-    <loc>https://byjrk.github.io/tags/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2023-06-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://byjrk.github.io/tags/%E7%A7%91%E5%B9%BB/</loc>
     <lastmod>2023-06-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -576,14 +569,7 @@
   </url>
   
   <url>
-    <loc>https://byjrk.github.io/tags/%E7%BB%8F%E5%8E%86/</loc>
-    <lastmod>2023-06-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://byjrk.github.io/tags/%E5%B0%8F%E8%AF%B4/</loc>
+    <loc>https://byjrk.github.io/tags/%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2023-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -591,6 +577,27 @@
   
   <url>
     <loc>https://byjrk.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2023-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://byjrk.github.io/tags/%E7%BB%8F%E5%8E%86/</loc>
+    <lastmod>2023-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://byjrk.github.io/tags/%E6%97%A5%E5%B8%B8/</loc>
+    <lastmod>2023-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://byjrk.github.io/tags/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2023-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -605,13 +612,6 @@
   
   <url>
     <loc>https://byjrk.github.io/tags/%E6%90%9E%E7%AC%91/</loc>
-    <lastmod>2023-06-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://byjrk.github.io/tags/%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2023-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
